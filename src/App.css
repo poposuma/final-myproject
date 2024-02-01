@@ -1,38 +1,163 @@
-.App {
-  text-align: center;
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    color: #033270;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background: #033270;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.link {
+    padding: 10px 40px;
+    text-decoration: none;
+    color: antiquewhite;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .button-add {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #033270;
+    padding: 15px;
+    border-radius: 20px;
+    color: antiquewhite;
+    text-transform: uppercase;
+    border: none;
+    
   }
-  to {
-    transform: rotate(360deg);
+
+  .button-delete {
+    font-family: 'Montserrat', sans-serif;
+    background: none;
+    border: 0;
+    color: black;
+    font-size: 10px;
   }
+
+  .chekList {
+    display: flex;
+    justify-content: center;
+   
+  } 
+
+
+  .plan {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .myInput {
+    background-color: #EEDFD4;
+    width: 30%;
+    height: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #033270;
+    border: none;
+    
+  }
+
+  p {
+    color: #033270;
+    font-size: 20px;
+  }
+  textarea {
+    background-color: #EEDFD4;
+    padding: 10px;
+    border: 1px solid #EEDFD4;
+    margin-top: 30px;
+    width: 100%;
+    height: 120px;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #033270;
+  }
+
+ 
+
+  .selected {
+    margin: 10px;
+    background: #EEDFD4;
+    border: 2px solid #033270;
+    font-family: 'Montserrat', sans-serif;
+    color: #EEDFD4;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 10px;
+  }
+
+  .default {
+    margin: 10px;
+    background-color: #EEDFD4;
+    font-family: 'Montserrat', sans-serif;
+    color: #033270;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .field {
+    font-family: 'Montserrat', sans-serif;
+    color: #033270;
+    font-size: 15px;
+  }
+
+ 
+
+.containerSlide {
+display: flex;
+flex-direction: column;
+align-items: center;
+background: none;
+font-family: 'Montserrat', sans-serif;
+color: #033270;
+
+}
+  
+
+  .btn {
+    display: flex;
+   justify-content: center;
+  }
+  
+  .btnDog {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #033270;
+    padding: 15px;
+    border-radius: 20px;
+    color: antiquewhite;
+    text-transform: uppercase;
+    border: none;
+    margin: 10px;
+  }
+
+.instructionsForDog {
+    font-size: 20px;
+    margin: 30px;
+    padding: 20px;
+    background-color: #EEDFD4;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+img {
+    border-radius: 15px;
 }

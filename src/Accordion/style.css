@@ -1,0 +1,39 @@
+body {
+    background: url(dogFoto.jpg);
+    background-size: cover;
+}
+
+.active {
+    padding: 15px 35px;
+    border: 2px solid #EEDFD4;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    color: #EEDFD4;
+    background-color: #033270;
+    font-size: 25px;
+    margin: 10px;
+    border-radius: 20px;
+    }
+    
+    .defaultOne {
+    padding: 10px 30px;
+    border: 1px solid #033270;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    color: #033270;
+    background-color: #EEDFD4;
+    font-size: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    }
+    
+    .content {
+    margin: 30px;
+    padding: 40px 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: #033270;
+    background-color: #EEDFD4;
+    border-radius: 20px;
+    }
+
+  
