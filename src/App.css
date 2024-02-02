@@ -86,8 +86,8 @@ video {
     border: 1px solid #EEDFD4;
     margin-top: 30px;
     width: 100%;
-    height: 120px;
-    border-radius: 20px;
+    height: 80px;
+    border-radius: 10px;
     font-family: 'Montserrat', sans-serif;
     color: #033270;
   }
